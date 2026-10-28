@@ -1,0 +1,13 @@
+{
+  "title": "Relaxation Sound.wav",
+  "creator": "Kevin Manickam (Kevin_Manickam)",
+  "sourcePage": "https://freesound.org/people/Kevin_Manickam/sounds/514386/",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "input": "Freesound public HQ transcoded MP3 preview; original WAV download requires login",
+  "inputSha256": "c40605e20afac526bd461c0d8549dc82f9bde99077df0f5ba150c4f35e91b9cb",
+  "asset": "relaxation-48k-stereo.pcm",
+  "assetSha256": "d89fbad19625c8571ed12488a1d3944c7afeeea68b01d0df77837e7bdf2b4703",
+  "format": "183 seconds of stereo signed 16-bit little-endian PCM at 48000 Hz",
+  "processing": "185-second crop, two-second loop crossfade, fixed peak scaling, 2 kHz low-pass, fixed trim, layer-only compression/waveshaping and DC removal, prepared offline. Playback pace changes pitch."
+}

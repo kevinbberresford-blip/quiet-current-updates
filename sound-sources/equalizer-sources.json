@@ -1,0 +1,235 @@
+{
+  "version": "0.2.0",
+  "license": "CC0 1.0",
+  "preparation": "Offline: source-specific crop, fixed source normalization, 2-second loop crossfade, DC correction, 48 kHz stereo PCM16. Rain/bowl shaping is layer-specific. Rain softness is additionally adjustable in the renderer. No playback-time normalization or network request.",
+  "records": [
+    {
+      "asset": "eq-ambient.pcm",
+      "source": {
+        "id": "ambient",
+        "filename": "ambient.wav",
+        "creator": "Umplix",
+        "title": "Deep Sea",
+        "page": "https://opengameart.org/content/deep-sea",
+        "license": "CC0 1.0",
+        "sourceFile": "local original verified against previous source ledger",
+        "sha256": "c9b9720cf7498e96032a15a7e4688fd0db64e1b5287cacb9cce0f0a27db03f00",
+        "bytes": 20945520,
+        "provenance": "Original WAV, verified against prior source ledger"
+      },
+      "preparation": {
+        "id": "ambient",
+        "file": "ambient.wav",
+        "start": 15,
+        "end": 65,
+        "process": "plain",
+        "hash": "c9b9720cf7498e96032a15a7e4688fd0db64e1b5287cacb9cce0f0a27db03f00",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 2304000,
+        "duration": 48,
+        "sourceDuration": 79.05,
+        "sourcePeak": 0.5399795770645142,
+        "sourceScale": 1.7037681406422578,
+        "dc": [
+          -0.000351017630116091,
+          -0.009281463707883858
+        ],
+        "peakAfter": 0.9107185529814167,
+        "cap": 1,
+        "rms": 0.18801469062044443,
+        "seamDelta": 0.0035803616046905518,
+        "seamCorrectionMs": 0,
+        "bytes": 9216000,
+        "pcmSha256": "10e6364aac962e7f320ea42f9a354a1e7bebf0390a72589669b0c42c668bc42f"
+      }
+    },
+    {
+      "asset": "eq-piano.pcm",
+      "source": {
+        "id": "piano",
+        "filename": "piano.wav",
+        "creator": "Yoiyami",
+        "title": "First Light Particles",
+        "page": "https://opengameart.org/content/first-light-particles-%E2%80%93-cc0-atmospheric-pianoambient-track",
+        "license": "CC0 1.0",
+        "sourceFile": "local original verified against previous source ledger",
+        "sha256": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5",
+        "bytes": 25290280,
+        "provenance": "Original WAV, verified against prior source ledger"
+      },
+      "preparation": {
+        "id": "piano",
+        "file": "piano.wav",
+        "start": 15,
+        "end": 105,
+        "process": "plain",
+        "hash": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 4224000,
+        "duration": 88,
+        "sourceDuration": 131.71997916666666,
+        "sourcePeak": 0.481842041015625,
+        "sourceScale": 1.9093394135157389,
+        "dc": [
+          4.109584497571219e-05,
+          0.00024153300093923916
+        ],
+        "peakAfter": 0.9200411125342762,
+        "cap": 1,
+        "rms": 0.13453671381445706,
+        "seamDelta": 0.006876930594444275,
+        "seamCorrectionMs": 0,
+        "bytes": 16896000,
+        "pcmSha256": "7abb465f2723766efcfdf70ed772b1b01bc79db01fa5fc2f88310b602f9bf2aa"
+      }
+    },
+    {
+      "asset": "eq-rain.pcm",
+      "source": {
+        "id": "rain",
+        "filename": "rain.mp3",
+        "creator": "FenrirFangs",
+        "title": "rain 1.wav",
+        "page": "https://freesound.org/people/FenrirFangs/sounds/231687/",
+        "license": "CC0 1.0",
+        "sourceFile": "https://cdn.freesound.org/previews/231/231687_3635427-hq.mp3",
+        "sha256": "ef620171f8887421a7caf522e50344785487b793d351eef1b8839caf1fbbc6f4",
+        "bytes": 1074819,
+        "provenance": "Freesound public shared HQ preview, transcoded by Freesound; original download requires login"
+      },
+      "preparation": {
+        "id": "rain",
+        "file": "rain.mp3",
+        "start": 0,
+        "end": 0,
+        "process": "rain",
+        "hash": "ef620171f8887421a7caf522e50344785487b793d351eef1b8839caf1fbbc6f4",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 1728203,
+        "duration": 36.00422916666667,
+        "sourceDuration": 38.00422916666667,
+        "sourcePeak": 0.3955698013305664,
+        "sourceScale": 2.32575893535205,
+        "dc": [
+          -0.00012232031291061605,
+          8.783252056034145e-05
+        ],
+        "peakAfter": 0.9001222964710527,
+        "cap": 1,
+        "rms": 0.11012366950754847,
+        "seamDelta": 0,
+        "seamCorrectionMs": 10,
+        "bytes": 6912812,
+        "pcmSha256": "59f3b38a05f84827dcf811fafb79ca0e057e83ba0fb3804829ce8d63c0d16693"
+      }
+    },
+    {
+      "asset": "eq-bowl-classic.pcm",
+      "source": {
+        "id": "bowl",
+        "filename": "bowl.mp3",
+        "creator": "steffcaffrey",
+        "title": "Singing Bowl singing",
+        "page": "https://freesound.org/people/steffcaffrey/sounds/449950/",
+        "license": "CC0 1.0",
+        "sourceFile": "https://cdn.freesound.org/previews/449/449950_1844073-hq.mp3",
+        "sha256": "2683d3c4afec45143c5607582868f9d3a2fb29a01ead816ec36e1c5c06e4097a",
+        "bytes": 1091315,
+        "provenance": "Freesound public shared HQ preview, transcoded by Freesound; original download requires login"
+      },
+      "preparation": {
+        "id": "bowlClassic",
+        "file": "bowl.mp3",
+        "start": 0,
+        "end": 0,
+        "process": "bowl",
+        "hash": "2683d3c4afec45143c5607582868f9d3a2fb29a01ead816ec36e1c5c06e4097a",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 2668000,
+        "duration": 55.583333333333336,
+        "sourceDuration": 57.583333333333336,
+        "sourcePeak": 0.0565774068236351,
+        "sourceScale": 16.26090787207433,
+        "dc": [
+          -7.484928362782294e-07,
+          -7.484928362782294e-07
+        ],
+        "peakAfter": 0.7237623666301959,
+        "cap": 1,
+        "rms": 0.18870304489078835,
+        "seamDelta": 0.0009360760450363159,
+        "seamCorrectionMs": 0,
+        "bytes": 10672000,
+        "pcmSha256": "b7b343c71e52ffa4e7c8e8d75e58f1bf678bd73aa541236009e1b896ad3abac9"
+      }
+    },
+    {
+      "asset": "eq-bowl-journey.pcm",
+      "source": {
+        "id": "bowlJourney",
+        "filename": "bowl-journey.mp3",
+        "creator": "smilecat77",
+        "title": "Singingbowl 108062.mp3",
+        "page": "https://freesound.org/people/smilecat77/sounds/475307/",
+        "license": "CC0 1.0",
+        "sourceFile": "https://cdn.freesound.org/previews/475/475307_9477980-hq.mp3",
+        "sha256": "b771ad95786ed5bcd16cb1cb502da273038158411a896faef34187faf2413fdf",
+        "bytes": 7779988,
+        "provenance": "Public Freesound HQ transcoded MP3 preview; original download requires login",
+        "originalDurationSeconds": 349.226
+      },
+      "preparation": {
+        "id": "bowlJourney",
+        "file": "bowl-journey.mp3",
+        "start": 0,
+        "end": 185,
+        "process": "journey",
+        "hash": "b771ad95786ed5bcd16cb1cb502da273038158411a896faef34187faf2413fdf",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 8784000,
+        "duration": 183,
+        "sourceDuration": 349.2266666666667,
+        "sourcePeak": 0.0927499383687973,
+        "sourceScale": 9.919144057453133,
+        "dc": [
+          -0.00011696586564837308,
+          -0.000401717967878676
+        ],
+        "peakAfter": 0.9004016941260208,
+        "cap": 1,
+        "rms": 0.3536194116493653,
+        "seamDelta": 0.017121851444244385,
+        "seamCorrectionMs": 0,
+        "bytes": 35136000,
+        "pcmSha256": "e8525331508f072cba43b25f72deed55b469e02e88117248f2d2a39fa5933b15"
+      }
+    }
+  ],
+  "relaxationSong": {
+    "source": {
+      "id": "bowlSong",
+      "filename": "bowl-meditation-song.mp3",
+      "creator": "Kevin_Manickam",
+      "title": "Relaxation Sound.wav",
+      "page": "https://freesound.org/people/Kevin_Manickam/sounds/514386/",
+      "license": "CC0 1.0",
+      "sourceFile": "https://cdn.freesound.org/previews/514/514386_7725225-hq.mp3",
+      "sha256": "c40605e20afac526bd461c0d8549dc82f9bde99077df0f5ba150c4f35e91b9cb",
+      "bytes": 7045776,
+      "provenance": "Public Freesound HQ transcoded MP3 preview; original download requires login",
+      "originalDurationSeconds": 305.833
+    },
+    "prepared": {
+      "file": "relaxation-48k-stereo.pcm",
+      "frames": 8784000,
+      "sampleRate": 48000,
+      "pcmSha256": "d89fbad19625c8571ed12488a1d3944c7afeeea68b01d0df77837e7bdf2b4703"
+    },
+    "details": "See relaxation-source.json for the already bundled 0.1.3 song preparation."
+  }
+}
